@@ -12,7 +12,7 @@ function App() {
      
           {/*  GOOGLE BOOKSSSS is a placeholder for reference while building the page/app */}
           <p>
-            GOOGLE BOOKSSS
+            GOOGLE BOOKSSS app.js
         </p>
           <Navbar>
             {/* route to each page in the navbar and importing it with router-dom */}

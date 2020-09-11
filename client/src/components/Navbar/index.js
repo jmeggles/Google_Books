@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 class Nav extends Component {
   state = {
@@ -31,8 +32,8 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
-        <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-light mb-2" id="navbar-color">
+        <Link className="navbar-brand" to="/" id="nav-title">
           Google Books
         </Link>
         <button
@@ -53,7 +54,7 @@ class Nav extends Component {
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                 to="/"
-              >
+             id="nav-search" >
                 Search
               </Link>
             </li>
@@ -62,7 +63,7 @@ class Nav extends Component {
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
                 to="/saved"
-              >
+              id="nav-saved">
                 Saved
               </Link>
             </li>

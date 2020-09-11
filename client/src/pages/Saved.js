@@ -40,17 +40,15 @@ class Saved extends Component {
       <Container>
         <Row>
           <Col size="md-12">
+           
             <Jumbotron>
-              <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
-              </h1>
-              <h2 className="text-center">Search and Save your favorite books.</h2>
+            <h1 className="jumbo-title">Saved Books</h1>
             </Jumbotron>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <Card title="Saved Books" icon="download">
+            <Card title="Saved Books" icon="far fa-bookmark">
               {this.state.books.length ? (
                 <List>
                   {this.state.books.map(book => (

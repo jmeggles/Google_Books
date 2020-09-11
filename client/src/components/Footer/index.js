@@ -1,11 +1,11 @@
 import React from "react";
 
-function Footer() {
+function Footer({ icon }) {
   return (
     <footer>
       <hr />
-      <p className="pull-right">
-        <i className="fab fa-github" /> Google Books Search
+      <p align="center">
+        Google Books by Jodes
       </p>
     </footer>
   );

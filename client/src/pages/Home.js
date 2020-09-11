@@ -73,12 +73,8 @@ class Home extends Component {
       <Container>
         <Row>
           <Col size="md-12">
-            <Jumbotron>
-                {/* lowercase first letter for DOM tags such as <div>, etc */}
-              <h1 className="text-center">
-                <strong>Google Books</strong>
-              </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+          <Jumbotron>
+            <h1 className="jumbo-title">Search for Books</h1>
             </Jumbotron>
           </Col>
           <Col size="md-12">

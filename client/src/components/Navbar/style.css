@@ -1,0 +1,19 @@
+#navbar-color {
+    background-color: #d9c3ed
+}
+
+#nav-title {
+    color: #FFFFFF;
+}
+
+#nav-search, #nav-saved {
+    color: #FFFFFF;
+    font-size: 2em;
+    float: left;
+}
+
+#nav-search:hover, 
+#nav-saved:hover {
+    color: #a09d9d;
+    }
+

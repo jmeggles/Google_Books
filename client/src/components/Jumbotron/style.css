@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url("./books.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 500px; 
+  }
+
+.jumbo-title {
+  margin-bottom: 13em;
+  color: #2b2a2b;
+  font-style: italic;
+}

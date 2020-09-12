@@ -1,5 +1,4 @@
- 
-# Google_Books
+# Google_Books [![Build Status](https://travis-ci.com/jmeggles/Google_Books.svg?branch=master)](https://travis-ci.com/jmeggles/Google_Books)
 
   ## Overview 
   MERN stack appplication.  React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. Also uses Node, Express and MongoDB so users can save books to review or purchase later.
@@ -10,7 +9,6 @@
   - [Motivation](#Motivation)
   - [Installation](#Installation)
   - [How to use](#How_to_use)
-  - [Notes](#Notes)
   - [License](#License)
   - [Contribute](#Contribute)
 

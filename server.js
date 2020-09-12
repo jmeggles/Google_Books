@@ -17,11 +17,13 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // connecting to mongoDB with a configuration parameter {useNewUrlParser}
-mongoose.connect("mongodb://127.0.0.1:27017/jodesgooglebooks", 
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/jodesgooglebooks", 
 {
   useCreateIndex: true, 
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
+  useFindAndModify: false
 });
 const connection = mongoose.connection;
 

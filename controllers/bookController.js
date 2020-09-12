@@ -1,4 +1,5 @@
-const db = require("../../Master/models");
+const db = require("../models");
+// const db = require("../../Google_Books/models");
 
 // Defining methods for the bookController
 module.exports = {

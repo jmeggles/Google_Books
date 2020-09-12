@@ -17,7 +17,7 @@ class Home extends Component {
   state = {
     books: [],  // user will input any term.
     q: "",  // user will get back results in a query list from their search term.
-    message: "Search For A Book To Begin!"  // static message/placeholder until query is made.
+    // message: "Search For A Book To Begin!"  // static message/placeholder until query is made.
   };
 
  //  form input when user enters a term to search for.

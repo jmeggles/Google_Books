@@ -18,11 +18,15 @@ app.use(routes);
 
 // connecting to mongoDB with a configuration parameter {useNewUrlParser}
 mongoose.connect("mongodb://127.0.0.1:27017/jodesgooglebooks", 
-{useCreateIndex: true, useNewUrlParser: true});
+{
+  useCreateIndex: true, 
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 const connection = mongoose.connection;
 
 connection.once("open", function() {
-    console.log("MongoDB connection established successfully");
+    console.log(">>>>> MongoDB connection established successfully <<<<<<");
 }
 )
 

@@ -11,13 +11,14 @@
   - [How to use](#How_to_use)
   - [License](#License)
   - [Contribute](#Contribute)
+  - [Additional Vids](#Additional_Vids)
 
  ## Links (*deployed app and repo*)
-  - [Heroku](https://www.herokuapp.com/)
+  - [Heroku](https://googlebooks-mern.herokuapp.com)
   - [GitHub Repo](https://github.com/jmeggles/Google_Books)
 
  ## Screenshots_and_Vids 
-  - ![Short vid of deployed project](https://www.giphy.gif)
+  - ![Short vid of deployed project](https://media.giphy.com/media/dWlOQZ0zkvVHWn0cwr/giphy.gif)
   - ![Screenshot of deployed project](./client/public/assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./client/public/assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./client/public/assets/images/screenshot3.png)  
@@ -25,8 +26,9 @@
   ## Motivation
   Inspired by a class project. I wanted to build an app to showcase my knowledge of how MongoDB, Express, React, and NojeJs work together for a fullstack MERN application.
 
-  ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
-  No install needed. Just follow [this link](https://www.herokuapp.com/) to the deployed application!
+  ## Installation 
+  ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
+  No install needed. Just follow [this link](https://googlebooks-mern.herokuapp.com) to the deployed application!
 
   Or, clone application, then in the root folder add package with `npm i` then `npm start` to run application. Installation of MongoDB wil also need to be added. 
 
@@ -38,12 +40,18 @@
   - From the "Saved" page, Click "View" to go to the Google book page of that book for more information. 
   - From the "Saved" page, Click "Delete" to remove a book from your collection.
 
-  ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
+  ## License 
+  ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   [MIT License](https://opensource.org/licenses/MIT)
   
   ## Contribute
   To contribute to this project, fork repo and commit changes.  
   For comments and/or questions, contact Jody Eggleston via 
   [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
+
+  ## Additional_Vids
+- ![Short vid of deployed project](https://media.giphy.com/media/f9GRAkhATzGyBqzZIo/giphy.gif)
+- ![Short vid of deployed project](https://media.giphy.com/media/IeuBSyKSrXslltGHro/giphy.gif)
+- ![Short vid of deployed project](https://media.giphy.com/media/jQQgw3gEUzfxcuesfU/giphy.gif)
 
   Copyright © 2020 Jody Eggleston .

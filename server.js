@@ -18,7 +18,7 @@ app.use(routes);
 
 // connecting to mongoDB with a configuration parameter {useNewUrlParser}
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/jodesgooglebooks", 
+  process.env.MONGODB_URI || "mongodb+srv://jody663:moNgo-paSS-159@cluster0.mddds.mongodb.net/jodesgooglebooks?retryWrites=true&w=majority",
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,

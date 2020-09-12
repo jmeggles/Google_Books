@@ -4,6 +4,7 @@
 
 #nav-title {
     color: #FFFFFF;
+    font-size: 3em;
 }
 
 #nav-search, #nav-saved {
@@ -15,5 +16,6 @@
 #nav-search:hover, 
 #nav-saved:hover {
     color: #a09d9d;
+    font-style: italic;
     }
 

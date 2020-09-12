@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets
-if (process.env.NODE_ENV === "production") {
+if (process.env.MONGODB_URI === "production") {
   app.use(express.static("client/build"));
 }
 

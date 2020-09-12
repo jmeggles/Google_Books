@@ -41,8 +41,9 @@
   ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   [MIT License](https://opensource.org/licenses/MIT)
   
-  Copyright © 2020 Jody Eggleston 
-
   ## Contribute
+  To contribute to this project, fork repo and commit changes.  
   For comments and/or questions, contact Jody Eggleston via 
   [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
+
+  Copyright © 2020 Jody Eggleston 

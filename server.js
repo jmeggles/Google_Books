@@ -20,17 +20,12 @@ app.use(routes);
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/jodesgooglebooks", 
 {
-  useCreateIndex: true, 
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
 });
-const connection = mongoose.connection;
 
-connection.once("open", function() {
-    console.log(">>>>> MongoDB connection established successfully <<<<<<");
-}
-)
 
 // Start the API server
 app.listen(PORT, () =>

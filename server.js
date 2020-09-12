@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets
 if (process.env.NODE_ENV === "production") {
+  // javascript and css files will be read and served from this folder
   app.use(express.static("client/build"));
 }
 

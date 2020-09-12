@@ -28,7 +28,7 @@
   ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
   No install needed. Just follow [this link](https://www.herokuapp.com/) to the deployed application!
 
-  Or, clone application, then in the root folder add package with `npm i` then `npm start` to run application. Installation of MongoDB wil also need to be added.
+  Or, clone application, then in the root folder add package with `npm i` then `npm start` to run application. Installation of MongoDB wil also need to be added. 
 
   ## How_to_use
   - Click the "Search" link at the top of the page, then type a book into the search bar to search for your favorite books. 
@@ -46,4 +46,4 @@
   For comments and/or questions, contact Jody Eggleston via 
   [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
 
-  Copyright © 2020 Jody Eggleston 
+  Copyright © 2020 Jody Eggleston .

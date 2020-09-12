@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets
-if (process.env.MONGODB_URI === "production") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
@@ -18,14 +18,14 @@ app.use(routes);
 
 // connecting to mongoDB with a configuration parameter {useNewUrlParser}
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb+srv://jody663:moNgo-paSS-159@cluster0.mddds.mongodb.net/jodesgooglebooks?retryWrites=true&w=majority",
-{
+  process.env.MONGODB_URI || 'mongodb://localhost/jodesgooglebooks',
+  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false
-});
-
+  }
+);
 
 // Start the API server
 app.listen(PORT, () =>
